@@ -1,7 +1,7 @@
 ---
-title: Welcome to mokori's notes
+title: Welcome to Mokori's Notes
 ---
-## プログラマー&ドラマー
+## ソフトウェアエンジニア&ドラマー
 <hr>
 
 ### ポートフォリオ：

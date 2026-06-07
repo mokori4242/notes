@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Mokori's Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -152,6 +152,8 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      title: "Notes"
     layout:
       position: left
       priority: 50
