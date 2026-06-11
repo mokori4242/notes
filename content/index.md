@@ -1,6 +1,8 @@
 ---
 title: Welcome to Mokori's Notes
 ---
+# Mokori
+![[Pasted image 20260611194241.png]]
 ## ソフトウェアエンジニア&ドラマー
 <hr>
 
