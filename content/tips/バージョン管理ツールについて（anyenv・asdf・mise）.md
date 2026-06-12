@@ -39,9 +39,10 @@ run = "ls"
 description = "Run the CLI"
 run = "ls -a"
 ```
-    ・ 既存コマンドと重複しない場合、`run`を省略することができる
-    ・`mise run`でタスク一覧表示も可能
-	    ![[Pasted image 20260611161218.png]]
+    ・ 既存コマンドと重複しない場合、runを省略することができる
+    ・mise runでタスク一覧表示も可能
+    
+![[miserun.png]]
 
 <hr>
 

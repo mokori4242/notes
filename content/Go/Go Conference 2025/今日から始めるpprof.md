@@ -60,8 +60,8 @@ defer pprof.StopCPUProfile()
   - X%ヒープサイズが小さくなった
 - 改善結果を客観的に共有するには図表が効果的
   - pprofで差分を表示するには、`go tool pprof -http :9999 -base cpu.sample.prof diff.sample.prof`
-![[Pasted image 20260611161855.png]]
-![[Pasted image 20260611161913.png]]
+![[gopproflow.png]]
+![[gopproffigure.png]]
 ## テストの一環としてのプロファイル
 
 - `_test.go`ファイルにベンチマーク関数を記載して、`go test -bench=. -cpuprofile=cpu.sample.prof`のオプションでプロファイルも出力できる
@@ -74,7 +74,7 @@ defer pprof.StopCPUProfile()
 - 本番環境で動作しているものの継続的プロファイルを取る
   - スパイクした段階でプロファイルを取っても、スパイク段階のプロファイルは取れないため
 - 継続的プロファイルの仕組みを自分で作ることもできるが、サービスとして提供しているSaaSも多くなってきている
-![[Pasted image 20260611161938.png]]
+![[observability.png]]
 ## ワークショップでの有り難い小話
 - SAMPLESはほぼ使わない
   - データがおかしい時にSAMPLESを確認する（数が少ない場合が多い）

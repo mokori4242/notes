@@ -2,7 +2,7 @@
 title: Welcome to Mokori's Notes
 ---
 # Mokori
-![[Pasted image 20260611194241.png]]
+![[profile_image.png]]
 ## ソフトウェアエンジニア&ドラマー
 <hr>
 
